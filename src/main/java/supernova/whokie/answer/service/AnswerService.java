@@ -31,8 +31,6 @@ public class AnswerService {
     private final FriendRepository friendRepository;
     private final UserRepository userRepository;
     private final QuestionRepository questionRepository;
-    @Value("${friend-limit}")
-    private int friendLimit;
     @Value("${default-hint-count}")
     private int defaultHintCount;
 
